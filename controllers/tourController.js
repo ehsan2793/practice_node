@@ -26,7 +26,6 @@ exports.getAllTours = (req, res) => {
 
 exports.getTour = (req, res) => {
   const id = +req.params.id;
-
   const tour = tours.find((tour) => tour.id === id);
   if (!tour) {
     return res.status(404).json({
