@@ -11,7 +11,7 @@ const ServerStatus = {
 };
 
 // Export the enum for use in other modules
-module.exports = ServerStatus;
+
 
 // Utility functions to work with the enum
 const getStatusCode = (status) => {
